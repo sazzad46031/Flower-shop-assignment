@@ -12,8 +12,6 @@ body {
 
 /*------banner style------*/
 
-.section-one {}
-
 .banner {
     display: flex;
     justify-content: space-between;
@@ -36,7 +34,8 @@ body {
     line-height: 30px;
     margin-bottom: 32px;
 }
-.button{
+
+.button {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
@@ -44,4 +43,52 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+
+/*------featured style-------*/
+.section-two {
+    margin-top: 178px;
+    padding: 0 240px;
+}
+
+.featured-content {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.featured-image{
+    display: flex;
+    gap: 24px;
+}
+.figure-one,.figure-two,.figure-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 90px;
+}
+.figure-one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.figure-two{
+    background:#0597A026;
+}
+.figure-three{
+    background: #477D1126;
 }
