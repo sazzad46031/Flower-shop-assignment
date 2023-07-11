@@ -80,24 +80,40 @@ body {
 .figure-one,
 .figure-two,
 .figure-three {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 33.33%;
-    border-radius: 300px 300px 0px 0px;
-    padding-top: 90px;
+    text-align: center;
 }
 
-.figure-one {
-    background: rgba(167, 33, 98, 0.15);
+.image-wrapper {
+    border-radius: 300px 300px 0 0;
+    padding-top: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 438px;
+
 }
 
-.figure-two {
+.image-wrapper-two {
+    align-items: center;
     background: #0597A026;
 }
 
-.figure-three {
+.image-wrapper-one {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-wrapper-three {
     background: #477D1126;
+}
+
+.caption {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
 }
 
 
@@ -137,20 +153,23 @@ body {
 
 /*-------Instagram---------*/
 
-.instagram{
+.instagram {
     text-align: center;
 }
-.instagram-image{
+
+.instagram-image {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.instagram-title{
+
+.instagram-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
+
 .instagram-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
